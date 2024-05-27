@@ -1,6 +1,19 @@
+
 import "./App.css";
+import React, { useState, useEffect } from "react";
+
+/**
+ https://www.youtube.com/watch?v=FiGmAI5e91M&list=PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb&index=3
+ time(18.44)
+ */
 
 function App() {
+  
+
+  const API_URL = 'https://api.api-ninjas.com/v1/cars';
+  const API_KEY = 'DEIN_API_SCHLÜSSEL';
+  const model = 'camry';
+  
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img
@@ -10,7 +23,7 @@ function App() {
       />
       <div className="px-6 py-4">
         <div className="font-bold text-purple-500 text-xl mb-2">
-          Photo einer Internetsite
+         Fotos eines Autors
         </div>
         <ul>
           <li>
