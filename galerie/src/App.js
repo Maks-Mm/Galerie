@@ -21,9 +21,10 @@ function App() {
       </button>
       <div className="px-6 py-4">
         <div className="font-bold text-purple-500 text-xl mb-2">
-        
+
           <div className="photos">
             {images.length > 0 && <Images images={images} />}
+            
           </div>
           Fotos eines Autors
         </div>
