@@ -1,13 +1,16 @@
 import React from 'react';
 import IndividualImage from './IndividualImage';
 
+
 function Images({ images }) {
-  //  console.log(images);
   return (
-    <div className="images-grid">
+    <div className="container mx-auto">
+    <div className='grid grid-cols-3 gap-4'>
+
       {images.map((image) => (
         <IndividualImage key={image.id} image={image} />
       ))}
+    </div>
     </div>
   );
 }

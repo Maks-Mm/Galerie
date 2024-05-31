@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import Images from "./components/Images";
+import ImagesCard from "./components/ImagesCard";
 
 function App() {
   const [images, setImages] = useState([]);
@@ -16,16 +17,13 @@ function App() {
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      <div className="">{images.length > 0 && <Images images={images} />}</div>
+      <ImagesCard/>
       <button className="btn btn-primary btn-mb" onClick={fetchAPI}>
-        Button
+        Fetching Fotos
       </button>
       <div className="px-6 py-4">
         <div className="font-bold text-purple-500 text-xl mb-2">
-
-          <div className="photos">
-            {images.length > 0 && <Images images={images} />}
-            
-          </div>
           Fotos eines Autors
         </div>
         <ul>
@@ -69,6 +67,8 @@ import axios from 'axios';
 
 /**
  https://www.youtube.com/watch?v=FiGmAI5e91M&list=PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb&index=3
+
+ https://www.youtube.com/watch?v=edDU1tv40Sw hilfsmateriale
  time(18.44)
  
  
