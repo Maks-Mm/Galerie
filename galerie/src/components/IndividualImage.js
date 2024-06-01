@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
 
-function IndividualImage({image}) {
+//warscheinlich ist die Liste fur die Ordnung des Desings ist
+
+function IndividualImage({ image }) {
   return (
-    <div className='photo'>
-      <img src={image.urls.small} alt="fotos"/>
+    <div className="block">
+      <div className="">
+        <img src={image.urls.small} alt="fotos" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default IndividualImage
+export default IndividualImage;
