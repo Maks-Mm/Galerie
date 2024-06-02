@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-function Image({ image, handleRemove, index }) {
+function Image() {
   return (
-    <div className="image-item">
-      <img src={image} alt="Aircraft" />
-      <button onClick={() => handleRemove(index)}>Remove</button>
+    <div>
+      Image
     </div>
-  );
+  )
 }
 
-export default Image;
+export default Image
