@@ -13,7 +13,7 @@ fetch(`https://pixabay.com/api/?key=&q=yellow+flowers&image_type=photo&pretty=tr
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img
-        src="kostenmitten.png"
+        src=""
         alt="kostenmitten.png"
         className="w-full"
         width={500}

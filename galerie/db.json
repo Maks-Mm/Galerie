@@ -1,0 +1,21 @@
+{
+
+    "blumen":[
+        {
+            "id":2,
+            "name":"Blume",
+            "img":"kostenmitten.png"
+        },
+        {
+            "id":3,
+            "name":"Blume2",
+            "img":"https://fleurop.cstatic.io/media/f3/df/46/1674217963/dahlie-blume.jpg"
+        },
+        {
+            "id":4,
+            "name":"Blume4",
+            "img":"https://media.gettyimages.com/id/165668243/de/vektor/vektor-g%C3%A4nsebl%C3%BCmchen.jpg?s=612x612&w=gi&k=20&c=gWgjOcvBTArWnn52JQk3_0j0fZlWK2nYYNnk_k4al18="
+        }
+        
+    ]
+}
