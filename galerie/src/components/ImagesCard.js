@@ -9,8 +9,8 @@ function ImagesCard({ image }) {
         src={image.webformatURL}
         alt="kostenmitten.png"
         className="w-full"
-        width={200}
-        height={300}
+        width={""}
+        height={""}
       />
       <div className="px-6 py-4">
         <div className="font-bold text-purple-500 text-xl mb-2">
@@ -22,7 +22,7 @@ function ImagesCard({ image }) {
             {image.views}
           </li>
           <li>
-            <strong>comments:</strong>
+            <strong>Comments:</strong>
             {image.comments}
           </li>
           <li>
@@ -32,10 +32,14 @@ function ImagesCard({ image }) {
         </ul>
       </div>
       <div className="px-6 py-4">
-        {tags.map((tag) => (
-         <span key={image.id} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-          #{tag}
-         </span>
+        {tags.map((tag,index) => (
+          <span
+            key={index.id}
+            className="inline-block bg-gray-200
+             rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+          >
+            #{tag}
+          </span>
         ))}
       </div>
     </div>

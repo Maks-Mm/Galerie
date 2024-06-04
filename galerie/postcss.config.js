@@ -1,11 +1,11 @@
+/*
 
-/*module.exports = {
+module.exports = {
     plugins: [
         require('tailwindcss'),
         require('autoprefixer'),
     ],
 };
-*/
 
 
 
@@ -17,6 +17,20 @@ module.exports = {
         require('autoprefixer')
     ]
 }
+*/
 
   //eventuell muss ich ./ dafur 
+
+  module.exports = {
+    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+    darkMode: false, // oder 'media' oder 'class'
+    theme: {
+      extend: {},
+    },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
+  };
+  
   
