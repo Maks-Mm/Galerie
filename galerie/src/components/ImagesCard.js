@@ -1,23 +1,14 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 function ImagesCard() {
-  const [images, setImages] = useState([]);
-  const [isLoading,setIsLoading] = useState(true);
-  const [term,setTerm] = useState('');
-
-  useEffect(()=>{
-fetch(`https://pixabay.com/api/?key=&q=yellow+flowers&image_type=photo&pretty=true`)
-  });
-
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img
-        src=""
+        src="kostenmitten.png"
         alt="kostenmitten.png"
         className="w-full"
-        width={500}
-        height={1000}
+        width={200}
+        height={300}
       />
       <div className="px-6 py-4">
         <div className="font-bold text-purple-500 text-xl mb-2">
