@@ -29,10 +29,10 @@ function App() {
     <div className="grid grid-cols-3 gap-4">
 {images.map(image =>
 
-      <ImagesCard key={image.id} image={image} />
+      <ImagesCard key={image.id} image={image} />,
+ 
 )}
     </div>
-    <ImagesCard />
       <Image />
       <IndividualImage />
       <Images />
