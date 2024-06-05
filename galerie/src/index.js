@@ -12,3 +12,14 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+/*
+Resoursen (Time)
+
+https://www.youtube.com/watch?v=FiGmAI5e91M&list=PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb&index=4
+
+https://pixabay.com/api/?key=44193362-398485989173fdc6e8e0d1dde&q=yellow+flowers&image_type=photo&pretty=true
+
+
+*/
