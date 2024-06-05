@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./assets/main.css";
-
 import App from "./App";
-
 import "bootstrap/dist/css/bootstrap.css";
+//import "./assets/tailwind.css";
+import "./assets/main.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,7 +14,7 @@ root.render(
 
 
 /*
-Resoursen (Time)
+Resoursen (Time 06:23)
 
 https://www.youtube.com/watch?v=FiGmAI5e91M&list=PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb&index=4
 
