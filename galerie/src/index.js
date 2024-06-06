@@ -12,7 +12,6 @@ root.render(
   </React.StrictMode>
 );
 
-
 /*
 Resoursen (Time 06:23)
 
