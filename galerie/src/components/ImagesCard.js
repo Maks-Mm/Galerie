@@ -32,7 +32,9 @@ const ImageCard = ({ image }) => {
         </span>
         ))}
       </div>
+    
     </div>
+   
   )
 }
 

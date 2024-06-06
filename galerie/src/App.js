@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ImagesCard from "./components/ImagesCard";
 import ImageSearch from "./components/ImageSearch";
+import './App.css'
 
 function App() {
   const [images, setImages] = useState([]);
@@ -36,6 +37,9 @@ function App() {
           ))}
         </div>
       )}
+      <footer className="footer" >
+       <p className="footer_text">&copy; 2024 Maxim Pryshchepa </p>
+      </footer>
     </div>
   );
 }
