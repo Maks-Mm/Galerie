@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     // Version von Postman}https://pixabay.com/api/?key=44193362-398485989173fdc6e8e0d1dde&q=yellow+flowers&image_type=photo&pretty=true
     fetch(
-      `https://pixabay.com/api/?key=44193362-398485989173fdc6e8e0d1dde&q=yellow+flowers&image_type=photo&pretty=true`
+      `https://pixabay.com/api/?key=44193362-398485989173fdc6e8e0d1dde&q=${term}&image_type=photo&pretty=true`
     )
     .then(res => res.json())
     .then(data => {
