@@ -35,7 +35,7 @@ function App() {
       <ImageSearch searchText={(text) => setTerm(text)} />
 
       {isLoading ? (
-        <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1>
+        <h1 className="text-6xl text-center mx-auto mt-32"></h1>
       ) : (
         <div className="grid grid-cols-3 gap-4">
           {images.map((image) => (
@@ -44,7 +44,7 @@ function App() {
         </div>
       )}
       <footer className="footer" >
-       <p className="footer_text">&copy; 2024 Maxim Pryshchepa </p>
+       <p className="footer_text"> </p>
       </footer>
     </div>
   );
