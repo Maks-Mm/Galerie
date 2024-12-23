@@ -12,3 +12,24 @@
     margin: 0;
     font-size: 14px;
   }
+  html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Stellen Sie sicher, dass die Höhe mindestens die Höhe des Viewports beträgt */
+}
+
+.main {
+  flex: 1; /* Nimmt den verfügbaren Platz ein, sodass der Footer am Ende bleibt */
+}
+
+.footer {
+  background-color: #f8f9fa; /* Setzen Sie den Hintergrund des Footers */
+  padding: 20px;
+  text-align: center;
+}
