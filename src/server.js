@@ -8,9 +8,11 @@ const PORT = process.env.PORT || 5000;
 // Resolve __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const parentDir = path.dirname(__dirname);
+console.log(parentDir);
 
 // Serve static files from the "dist" folder
-app.use(express.static(path.join(__dirname, "dist")));
+app.use(express.static(path.join(parentDir, "dist")));
 
 // Example API route
 app.get("/api", (req, res) => {
